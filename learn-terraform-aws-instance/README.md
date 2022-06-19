@@ -3,5 +3,8 @@ This project creates a VPC in us-east-1, 4 subnets(2 public, 2 private), spannin
 
 An EC2 instance is created and placed in the first public subnet.
 
+# Reference
+https://learn.hashicorp.com/collections/terraform/aws-get-started
+
 # Architecture
 ![](images/learn-terraform-aws-instance.png)
