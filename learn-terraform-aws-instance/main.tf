@@ -2,6 +2,14 @@
 # providers Terraform will use to provision your infrastructure.
 # https://www.terraform.io/language/providers/requirements
 terraform {
+  cloud {
+    organization = "hansolo"
+
+    workspaces {
+      name = "learn_terraform_aws_instance_workspace"
+    }
+  }
+
   # Terraform installs providers from the Terraform Registry by default.
   required_providers {
     aws = {
